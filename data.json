@@ -1,10 +1,11 @@
 {
-	"Sandwiches": "",
+	"collection": "sandwiches",
+	"title": "Sandwiches",
 	"entrees": [
 		{
-			"name": "",
-			"description": "",
-			"price": ""
+			"name": "Bánh Mì",
+			"description": "Slow roasted pork belly, with fresh pickled carrots, onion and cucumbers with jalapeños, red peppers and cilantro on panini bread with sweet chili mayo.",
+			"price": 14
 		}
 	]
 }
