@@ -8,19 +8,23 @@ function ready(fn) {
 }
 
 ready(function() {
+	function renderJSON(json) {
+
+		var app = new Vue({
+			el: '#container',
+			data: {
+				spreads: json
+			}
+		});
+	}
+
 	var getFile = function(url, cb) {
 		var request = new XMLHttpRequest();
-		request.open('GET', url, false);
+		request.open('GET', url, true);
 		request.onload = function() {
 			if (this.status >= 200 && this.status < 400) {
 				// Success!
-				var json = JSON.parse(this.response);
-				var app = new Vue({
-					el: '#container',
-					data: {
-						menu: json
-					}
-				});
+				cb(JSON.parse(this.response));
 			} else {
 				console.log("We reached our target server, but it returned an error");
 			}
@@ -30,5 +34,5 @@ ready(function() {
 		};
 		request.send();
 	};
-	var data = getFile('/data.json');
+	var data = getFile('/data.json', renderJSON);
 });

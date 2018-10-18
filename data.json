@@ -1,11 +1,580 @@
-{
-	"collection": "sandwiches",
-	"title": "Sandwiches",
-	"entrees": [
-		{
-			"name": "Bánh Mì",
-			"description": "Slow roasted pork belly, with fresh pickled carrots, onion and cucumbers with jalapeños, red peppers and cilantro on panini bread with sweet chili mayo.",
-			"price": 14
-		}
-	]
-}
+[
+	{
+		"id": 0,
+		"title": "sandwich",
+		"collections": [
+			{
+				"id": 0,
+				"title": "Sandwiches",
+				"additions": "◆ Add a cup of soup for $4 ◆",
+				"options": "Can be made with Gluten Free bread",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Bánh Mì",
+						"description": "Slow roasted pork belly, with fresh pickled carrots, onion and cucumbers with jalapeños, red peppers and cilantro on panini bread with sweet chili mayo.",
+						"price": "14",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "Club",
+						"description": "Turkey, ham, bacon, Havarti, sriracha mayo, lettuce & tomato on toasted sourdough.",
+						"price": "7.50 half / 13 whole",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "Grilled Reuben",
+						"description": "Pastrami, Swiss, sauerkraut & our homemade sauce on Rye",
+						"price": "7.50 half / 13 whole",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "Grilled Rachel",
+						"description": "Turkey, Swiss, sauerkraut & our homemade sauce on Rye",
+						"price": "7.50 half / 13 whole",
+						"options": ""
+					},
+					{
+						"id": 4,
+						"name": "Grilled Veggie",
+						"description": "Grilled portobello, zucchini, peppers & onions with fresh greens & our homemade feta sauce on rye",
+						"price": "7.50 half / 13 whole",
+						"options": ""
+					},
+					{
+						"id": 5,
+						"name": "Pulled Pork",
+						"description": "Our pulled pork, pepper jack cheese, sliced red onion & our homemade barbecue sauce on panini bread",
+						"price": "13",
+						"options": ""
+					},
+					{
+						"id": 6,
+						"name": "Grilled Ham & Cheese",
+						"description": "Ham, Swiss, mayo, Dijon & dill pickle on sourdough",
+						"price": "7 half / 12 whole",
+						"options": ""
+					},
+					{
+						"id": 7,
+						"name": "Spicy Ham Melt",
+						"description": "Ham, Havarti, sriracha mayo & red bell peppers on wheat",
+						"price": "7 half / 12 whole",
+						"options": ""
+					},
+					{
+						"id": 8,
+						"name": "Tuna Melt",
+						"description": "Our freshly made tuna salad with cheddar on sourdough",
+						"price": "7 half / 12 whole",
+						"options": ""
+					},
+					{
+						"id": 9,
+						"name": "Cold Veggie",
+						"description": "Cucumbers, carrots, red onions, red bell peppers, lettuce & tomato with provolone on seedy wheat with hummus",
+						"price": "7 half / 12 whole",
+						"options": ""
+					},
+					{
+						"id": 10,
+						"name": "Basic Sandwich",
+						"description": "Choice of: Ham or Turkey; with cheddar, mayo, Dijon, lettuce, and tomato on sourdough",
+						"price": "7 half / 12 whole",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 1,
+		"title": "burger",
+		"collections": [
+			{
+				"id": 0,
+				"title": "Burgers",
+				"additions": "◆ Add a cup of soup for $4 ◆",
+				"options": "Served on panini bread but can be made with Gluten Free bread",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Big Burger",
+						"description": "Local grass-fed beef, bacon, blue cheese, tomato, lettuce & special sauce",
+						"price": "14",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "Big Lamb Köfte",
+						"description": "Grass-fed lamb, tomato, cucumber, red onions & feta sauce",
+						"price": "14",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "Chicken Burger",
+						"description": "Organic chicken breast, bacon, provolone, pesto, garlic aioli, lettuce & tomato",
+						"price": "14",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "Big Classic",
+						"description": "Local grass-fed beef & house made pork sausage, with bacon, sun-dried tomato pesto, grilled onions & provolone",
+						"price": "14",
+						"options": ""
+					},
+					{
+						"id": 4,
+						"name": "Portobello Burger",
+						"description": "Grilled portobello, marinated red onions, jalapeños, red peppers & fresh greens on panini bread with sun-dried tomato pest & caper aioli",
+						"price": "14",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Sliders",
+				"additions": "◆ Add a cup of soup for $4 ◆",
+				"options": "Served on our homemade buttermilk biscuit but can be made with Gluten Free bread",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "House",
+						"description": "Local grass-fed beef, bacon, tomato & special sauce",
+						"price": "7.50",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "Lamb Köfte",
+						"description": "Grass-fed lamb, tomato, cucumber, red onions & tiziki sauce",
+						"price": "7.50",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "Portobello",
+						"description": "Marinated portobello, provolone, tomato, lettuce & balsamic mayo",
+						"price": "7.50",
+						"options": "Vegetarian"
+					},
+					{
+						"id": 3,
+						"name": "Little Classic",
+						"description": "Local grass-fed beef & house made pork sausage with bacon, sun-dried tomato pesto, grilled onions & provolone",
+						"price": "7.50",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "salad",
+		"collections": [
+			{
+				"id": 0,
+				"title": "House Salads",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Garden Salad",
+						"description": "Organic greens, cucumber, carrots, red bell peppers, red onion, beets, corn, peas, carrots, sunflower seeds & Balsamic dressing",
+						"price": "6.50 small / 10 medium / 15 large",
+						"options": "Add organic Chicken or Shrimp for $9"
+					},
+					{
+						"id": 1,
+						"name": "Apple Blue Cheese Salad",
+						"description": "Organic greens, blue cheese crumbles, walnuts, red onions & apples with balsamic dressing",
+						"price": "6.50 small / 10 medium / 15 large",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Taco Salads",
+				"additions": "",
+				"options": "Gluten Free",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Beef / Chicken / Veggie",
+						"description": "Organic greens, black beans, corn, olives, tomatoes, green chillies, avocado, salsa, sour cream & our homemade chips",
+						"price": "16",
+						"options": "Veggie includes grilled zucchini & onions"
+					},
+					{
+						"id": 1,
+						"name": "Pork Carnitas Taco Salad",
+						"description": "Organic greens, pinto beans, sweet potatoes, avocado, mango chipotle sauce, salsa, sour cream & our homemade chips",
+						"price": "16",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Tacos",
+				"additions": "",
+				"options": "Gluten Free",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Shrimp Tacos",
+						"description": "Slaw, mango chipotle sauce, corn tortillas rice & beans",
+						"price": "15",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "Pork Carnitas Tacos",
+						"description": "Chimmichurri sauce, corn tortillas rice & beans",
+						"price": "15",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "burrito",
+		"collections": [
+			{
+				"id": 0,
+				"title": "Kebabs",
+				"additions": "",
+				"options": "Can be made Gluten Free with corn tortillas",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Burritos",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Nachos",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Soup",
+				"additions": "◆ Served with a buttermilk biscuit ◆",
+				"options": "Gluten Free / Vegan",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "Daily (look to the chalkboard)",
+						"description": "",
+						"price": "5 cup / 7 bowl",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "vegan",
+		"collections": [
+			{
+				"id": 0,
+				"title": "Buddha Bowls",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Salads & Wraps",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Sandwiches",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "◈ Served After 5pm ◈",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "Pasta",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "evening",
+		"collections": [
+			{
+				"id": 0,
+				"title": "◈ Served After 5pm ◈",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "◈ Served After 5pm ◈",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "dessert",
+		"collections": [
+			{
+				"id": 0,
+				"title": "Desserts",
+				"additions": "",
+				"options": "",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "",
+						"description": "",
+						"price": "",
+						"options": ""
+					}
+				]
+			}
+		]
+	}
+]

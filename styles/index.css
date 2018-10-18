@@ -43,11 +43,13 @@ html {
 }
 
 body {
-	background-color: white;
+	background-color: black;
 	font-family: 'Vollkorn', serif;
 	font-weight: 400;
 	line-height: 1.45;
-	color: #333;
+	color: white;
+	max-width: 1024px;
+	margin: auto;
 }
 
 p {
@@ -86,3 +88,74 @@ small {
 /*
 ** Layout
 */
+.spread-item {
+	display: flex;
+	color: black;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.entree-name {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/*
+** Theme
+*/
+
+.owl, .spread-item {
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.owl {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.owl section {
+	padding: 2em;
+	max-width: 35%;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.spread-item section {
+	padding: 2em;
+	max-width: 35%;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.collection-item h3 {
+	color: #d04c27;
+}
+
+
+.owl {
+	background-image: url(/images/img_01_owl.jpg);
+}
+.sandwich {
+	background-image: url(/images/img_02_sandwich.jpg);
+}
+.burger {
+	background-image: url(/images/img_03_burger.jpg);
+}
+.salad {
+	background-image: url(/images/img_04_salad.jpg);
+}
+.burrito {
+	background-image: url(/images/img_05_burrito.jpg);
+}
+.vegan {
+	background-image: url(/images/img_06_vegan.jpg);
+}
+.evening {
+	background-image: url(/images/img_07_evening.jpg);
+}
+.dessert {
+	background-image: url(/images/img_08_dessert.jpg);
+}

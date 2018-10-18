@@ -17,39 +17,56 @@
 <body>
 
 </body>
-<h1>Owl Sprit Cafe</h1>
-<p>Delicious Homemade Food</p>
+<header class="owl">
+	<h1>Owl Sprit Cafe</h1>
+	<p>Delicious Homemade Food</p>
 
-<h3>Fresh Local Food</h3>
-<p>We believe in local and oranic food and love to share it with our guests.</p>
-<p>For those who apperciate a cooked meal made from scratch.</p>
-<p>Treat yourself and your date to homemade goodness when you take the time to enjoy a meal at the Owl Sprit Cafe.</p>
+	<section>
+		<h3>Fresh Local Food</h3>
+		<p>We believe in local and oranic food and love to share it with our guests.</p>
+		<p>For those who apperciate a cooked meal made from scratch.</p>
+		<p>Treat yourself and your date to homemade goodness when you take the time to enjoy a meal at the Owl Sprit Cafe.</p>
 
-<h4>Hours</h4>
-<p>
-	11:00am - 7:30pm<br>
-	Closed Sundays
-</p>
-<h4>Location</h4>
-<address>
-	218 Polk St<br>
-	Port Townsend, WA 98368	
-</address>
+		<h4>Hours</h4>
+		<p>
+			11:00am - 7:30pm<br>
+			Closed Sundays
+		</p>
+		<h4>Location</h4>
+		<address>
+			218 Polk St<br>
+			Port Townsend, WA 98368	
+		</address>
 
-<h4>Phone</h4>
-<a href="tel:+13603855275">360.385.5275</a>
-
-<div id="container">
-	<h3>{{ menu.title }}</h3>
-	<ul>
-		<li v-for="item in menu.entrees">
-			{{ item.name }}: {{ item.description }}
-		</li>
-	</ul>
-</div>
+		<h4>Phone</h4>
+		<a href="tel:+13603855275">360.385.5275</a>
+	</section>
+</header>
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<main id="container">
+	<article v-for="spread in spreads" :key="spread.id" v-bind:class="spread.title + ' spread-item'">
+		<section v-for="collection in spread.collections" :key="collection.id" v-bind:class="collection.title + ' collection-item'">
+			<h3>{{ collection.title }}</h3>
+			<p><strong>{{ collection.additions }}</strong></p>
+			<p><em>{{ collection.options }}</em></p>
+			
+			<div v-for="entree in collection.entrees" :key="entree.id" v-bind:class="entree.title + ' entree-item'">
+				<p class="entree-name"><strong>{{ entree.name }}</strong> <span>{{ entree.price }}</span></p>
+				<small>{{ entree.options }}</small>
+				<p><em>{{ entree.description }}</em></p>
+				
+			</div>
+		</section>
+	</article>
+</main>
+
+
+<footer>
+	
+</footer>
+
+<script src="/scripts/lib/vue.js"></script>
 <script src="/scripts/index.js"></script>
 </body>
 </html>
