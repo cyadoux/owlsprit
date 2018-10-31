@@ -46,6 +46,7 @@
 
 <main id="container">
 	<article v-for="spread in spreads" :key="spread.id" v-bind:class="spread.title + ' spread-item'">
+		<h1 v-if="spread.name">{{ spread.name }}</h1>
 		<section v-for="collection in spread.collections" :key="collection.id" v-bind:class="collection.title + ' collection-item'">
 			<h3>{{ collection.title }}</h3>
 			<p><strong>{{ collection.additions }}</strong></p>
