@@ -546,21 +546,6 @@
 						"options": ""
 					}
 				]
-			},
-			{
-				"id": 1,
-				"title": "",
-				"additions": "",
-				"options": "",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "Sweet Potato Fries",
-						"description": "Ask for vegan sriracha mayo",
-						"price": "9",
-						"options": "Gluten Free"
-					}
-				]
 			}
 		]
 	},
