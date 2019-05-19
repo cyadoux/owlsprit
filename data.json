@@ -55,35 +55,35 @@
 						"id": 6,
 						"name": "Grilled Ham & Cheese",
 						"description": "Ham, Swiss, mayo, Dijon & dill pickle on sourdough",
-						"price": "7 half / 12 whole",
+						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
 						"id": 7,
 						"name": "Spicy Ham Melt",
 						"description": "Ham, Havarti, sriracha mayo & red bell peppers on wheat",
-						"price": "7 half / 12 whole",
+						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
 						"id": 8,
 						"name": "Tuna Melt",
 						"description": "Our freshly made tuna salad with cheddar on sourdough",
-						"price": "7 half / 12 whole",
+						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
 						"id": 9,
 						"name": "Cold Veggie",
 						"description": "Cucumbers, carrots, red onions, red bell peppers, lettuce & tomato with provolone on seedy wheat with hummus",
-						"price": "7 half / 12 whole",
+						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
 						"id": 10,
 						"name": "Basic Sandwich",
 						"description": "Choice of: Ham or Turkey; with cheddar, mayo, Dijon, lettuce, and tomato on sourdough",
-						"price": "7 half / 12 whole",
+						"price": "7.50 half / 13 whole",
 						"options": ""
 					}
 				]
@@ -104,35 +104,35 @@
 						"id": 0,
 						"name": "Big Burger",
 						"description": "Local grass-fed beef, bacon, blue cheese, tomato, lettuce & special sauce",
-						"price": "14",
+						"price": "15",
 						"options": ""
 					},
 					{
 						"id": 1,
 						"name": "Big Lamb Köfte",
 						"description": "Grass-fed lamb, tomato, cucumber, red onions & feta sauce",
-						"price": "14",
+						"price": "15",
 						"options": ""
 					},
 					{
 						"id": 2,
 						"name": "Chicken Burger",
 						"description": "Organic chicken breast, bacon, provolone, pesto, garlic aioli, lettuce & tomato",
-						"price": "14",
+						"price": "15",
 						"options": ""
 					},
 					{
 						"id": 3,
 						"name": "Big Classic",
 						"description": "Local grass-fed beef & house made pork sausage, with bacon, sun-dried tomato pesto, grilled onions & provolone",
-						"price": "14",
+						"price": "15",
 						"options": ""
 					},
 					{
 						"id": 4,
 						"name": "Portobello Burger",
 						"description": "Grilled portobello, marinated red onions, jalapeños, red peppers & fresh greens on panini bread with sun-dried tomato pest & caper aioli",
-						"price": "14",
+						"price": "15",
 						"options": ""
 					}
 				]
@@ -163,13 +163,6 @@
 						"description": "Marinated portobello, provolone, tomato, lettuce & balsamic mayo",
 						"price": "7.50",
 						"options": "Vegetarian"
-					},
-					{
-						"id": 3,
-						"name": "Little Classic",
-						"description": "Local grass-fed beef & house made pork sausage with bacon, sun-dried tomato pesto, grilled onions & provolone",
-						"price": "7.50",
-						"options": ""
 					}
 				]
 			}
@@ -213,36 +206,7 @@
 						"description": "Organic greens, black beans, corn, olives, tomatoes, green chillies, avocado, salsa, sour cream & our homemade chips",
 						"price": "16",
 						"options": "Veggie includes grilled zucchini & onions"
-					},
-					{
-						"id": 1,
-						"name": "Pork Carnitas Taco Salad",
-						"description": "Organic greens, pinto beans, sweet potatoes, avocado, mango chipotle sauce, salsa, sour cream & our homemade chips",
-						"price": "16",
-						"options": ""
-					}
-				]
-			},
-			{
-				"id": 2,
-				"title": "Tacos",
-				"additions": "",
-				"options": "Gluten Free",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "Shrimp Tacos",
-						"description": "Slaw, mango chipotle sauce, corn tortillas rice & beans",
-						"price": "15",
-						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Pork Carnitas Tacos",
-						"description": "Chimmichurri sauce, corn tortillas rice & beans",
-						"price": "15",
-						"options": ""
-					}
+					} 
 				]
 			}
 		]
@@ -376,14 +340,14 @@
 				"entrees": [
 					{
 						"id": 0,
-						"name": "House Salad",
+						"name": "Garden Salad",
 						"description": "Organic greens, cucumber, carrots, red peppers, red onions, beets, corn, peas, tomato, sunflower seeds & balsamic dressing",
 						"price": "6.50 small / 10 medium / 15 large",
 						"options": "Gluten Free"
 					},
 					{
 						"id": 1,
-						"name": "Vegan Taco",
+						"name": "Vegan Taco Salad",
 						"description": "Organic greens, black beans, corn, olives, avocado, tomato, green chillies, grilled onions, zucchini with salsa & homemade chips",
 						"price": "15",
 						"options": "Gluten Free"
@@ -437,176 +401,6 @@
 						"description": "Fresh carrots, cucumber, red onions, red peppers, lettuce & tomato on seedy wheat with hummus & grain mustard",
 						"price": "7 half / 12 whole",
 						"options": ""
-					}
-				]
-			},
-			{
-				"id": 3,
-				"title": "Pasta",
-				"additions": "◈ Served After 5pm ◈",
-				"options": "Can be made Gluten free for $3 extra - adds 10min to cooking time",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "Vegan Mediterranean Pasta",
-						"description": "Sun-dried tomato pistachio pesto, artichoke hearts & veggies",
-						"price": "20",
-						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Vegan Puttanesca",
-						"description": "Kalamata olives, capers, artichoke hearts & veggies in our spicy marinara",
-						"price": "20",
-						"options": ""
-					},
-					{
-						"id": 2,
-						"name": "Preserved Lemon & Caper",
-						"description": "Preserved lemons, veggies & caper sauce",
-						"price": "20",
-						"options": ""
-					},
-					{
-						"id": 3,
-						"name": "Spaghetti",
-						"description": "House-made marinara",
-						"price": "16",
-						"options": ""
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": 5,
-		"title": "evening",
-		"name": "◈ Served After 5pm ◈",
-		"collections": [
-			{
-				"id": 0,
-				"title": "Pasta",
-				"additions": "",
-				"options": "Can be made Gluten free for $3 extra - adds 10min to cooking time",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "Preserved Lemon Linguine",
-						"description": "Smoked salmon, artichoke hearts, preserved lemon, peas & goat cheese",
-						"price": "23",
-						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Chicken Linguine",
-						"description": "Organic Chicken & veggies in a sherry cream sauce",
-						"price": "23",
-						"options": ""
-					},
-					{
-						"id": 2,
-						"name": "Provençal Chicken Linguine",
-						"description": "Organic chicken, bacon, veggies, fresh tomatoes with goat cheese & crushed walnuts",
-						"price": "23",
-						"options": ""
-					},
-					{
-						"id": 3,
-						"name": "Seafood Linguine",
-						"description": "Smoked salmon, shrimp & roasted tomatoes in a cream sauce",
-						"price": "23",
-						"options": ""
-					},
-					{
-						"id": 4,
-						"name": "Puttanesca",
-						"description": "Shrimp, Andouille sausage, artichoke hearts, kalamata olives & capers with spicy marinara sauce",
-						"price": "23",
-						"options": ""
-					},
-					{
-						"id": 5,
-						"name": "Spaghetti Meat Balls",
-						"description": "Our homemade marinara & meatballs topped with parmesan",
-						"price": "20",
-						"options": ""
-					},
-					{
-						"id": 6,
-						"name": "Preserved Lemon & Caper",
-						"description": "Preserved lemons, veggies & caper sauce",
-						"price": "20",
-						"options": ""
-					},
-					{
-						"id": 7,
-						"name": "Vegetable Linguine",
-						"description": "Fresh veggies tossed in a pesto Parmesan sauce",
-						"price": "20",
-						"options": ""
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": 6,
-		"title": "dessert",
-		"collections": [
-			{
-				"id": 0,
-				"title": "Desserts",
-				"additions": "",
-				"options": "",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "Coconut Pecan Bread Pudding",
-						"description": "",
-						"price": "6.50",
-						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Chocolate Pot de Crème",
-						"description": "",
-						"price": "6.50",
-						"options": ""
-					},
-					{
-						"id": 2,
-						"name": "Orange Caramel Crème Brûlée",
-						"description": "",
-						"price": "6.50",
-						"options": ""
-					},
-					{
-						"id": 3,
-						"name": "Pie",
-						"description": "",
-						"price": "4.50",
-						"options": ""
-					},
-					{
-						"id": 4,
-						"name": "Cake",
-						"description": "",
-						"price": "5.50",
-						"options": ""
-					},
-					{
-						"id": 5,
-						"name": "Torte",
-						"description": "",
-						"price": "5.50",
-						"options": "Gluten Free"
-					},
-					{
-						"id": 6,
-						"name": "Chocolate Almond Brownie",
-						"description": "",
-						"price": "3",
-						"options": "Vegan"
 					}
 				]
 			}
