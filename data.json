@@ -46,41 +46,34 @@
 					},
 					{
 						"id": 5,
-						"name": "Pulled Pork",
-						"description": "Our pulled pork, pepper jack cheese, sliced red onion & our homemade barbecue sauce on panini bread",
-						"price": "13",
-						"options": ""
-					},
-					{
-						"id": 6,
 						"name": "Grilled Ham & Cheese",
 						"description": "Ham, Swiss, mayo, Dijon & dill pickle on sourdough",
 						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
-						"id": 7,
+						"id": 6,
 						"name": "Spicy Ham Melt",
 						"description": "Ham, Havarti, sriracha mayo & red bell peppers on wheat",
 						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
-						"id": 8,
+						"id": 7,
 						"name": "Tuna Melt",
 						"description": "Our freshly made tuna salad with cheddar on sourdough",
 						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
-						"id": 9,
+						"id": 8,
 						"name": "Cold Veggie",
 						"description": "Cucumbers, carrots, red onions, red bell peppers, lettuce & tomato with provolone on seedy wheat with hummus",
 						"price": "7.50 half / 13 whole",
 						"options": ""
 					},
 					{
-						"id": 10,
+						"id": 9,
 						"name": "Basic Sandwich",
 						"description": "Choice of: Ham or Turkey; with cheddar, mayo, Dijon, lettuce, and tomato on sourdough",
 						"price": "7.50 half / 13 whole",
@@ -123,13 +116,6 @@
 					},
 					{
 						"id": 3,
-						"name": "Big Classic",
-						"description": "Local grass-fed beef & house made pork sausage, with bacon, sun-dried tomato pesto, grilled onions & provolone",
-						"price": "15",
-						"options": ""
-					},
-					{
-						"id": 4,
 						"name": "Portobello Burger",
 						"description": "Grilled portobello, marinated red onions, jalapeños, red peppers & fresh greens on panini bread with sun-dried tomato pest & caper aioli",
 						"price": "15",
@@ -202,7 +188,7 @@
 				"entrees": [
 					{
 						"id": 0,
-						"name": "Beef / Chicken / Veggie",
+						"name": "Beef, Chicken, or Veggie",
 						"description": "Organic greens, black beans, corn, olives, tomatoes, green chillies, avocado, salsa, sour cream & our homemade chips",
 						"price": "16",
 						"options": "Veggie includes grilled zucchini & onions"
@@ -227,13 +213,6 @@
 						"description": "",
 						"price": "15",
 						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Organic Chicken",
-						"description": "",
-						"price": "15",
-						"options": ""
 					}
 				]
 			},
@@ -245,14 +224,14 @@
 				"entrees": [
 					{
 						"id": 0,
-						"name": "Beef / Chicken / Veggie",
+						"name": "Beef, Chicken, or Veggie",
 						"description": "",
 						"price": "16",
 						"options": "Veggie includes grilled zucchini and onions"
 					},
 					{
 						"id": 1,
-						"name": "Pork Carnitas Burrito",
+						"name": "Pork Belly Burrito",
 						"description": "Avocado, sweet potatoes, mango chipotle sauce, cheddar, salsa & sour cream",
 						"price": "16",
 						"options": ""
@@ -267,7 +246,7 @@
 				"entrees": [
 					{
 						"id": 0,
-						"name": "Slow Roasted Pork Belly / Beef / Chicken / Veggie",
+						"name": "Slow Roasted Pork Belly, Beef, Chicken, or Veggie",
 						"description": "",
 						"price": "13",
 						"options": ""
@@ -288,6 +267,21 @@
 						"options": ""
 					}
 				]
+			},
+			{
+				"id": 4,
+				"title": "Sweet Potato Fries",
+				"additions": "◆ Ask for vegan sriracha mayo ◆",
+				"options": "Gluten free",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "",
+						"description": "",
+						"price": "9",
+						"options": ""
+					}
+				]
 			}
 		]
 	},
@@ -298,42 +292,6 @@
 		"collections": [
 			{
 				"id": 0,
-				"title": "Buddha Bowls",
-				"additions": "",
-				"options": "Gluten Free",
-				"entrees": [
-					{
-						"id": 0,
-						"name": "P.T. Bowl",
-						"description": "Organic greens, cabbage, rice, pinto beans, red peppers, cucumber, avocado, sweet potatoes, salsa & hummus",
-						"price": "16",
-						"options": ""
-					},
-					{
-						"id": 1,
-						"name": "Go South",
-						"description": "Organic greens, cabbage, quinoa, black beans, red peppers, corn, avocado, sweet potatoes, salsa & chimichurri",
-						"price": "16",
-						"options": ""
-					},
-					{
-						"id": 2,
-						"name": "Go East",
-						"description": "Organic greens, cabbage, rice, garbanzo beans, red peppers, cucumber, carrots, snow peas, mango salsa & peanut sauce",
-						"price": "16",
-						"options": ""
-					},
-					{
-						"id": 3,
-						"name": "Taco Bowl",
-						"description": "Rice, pinto beans, cabbage, salsa, chimichurri & corn tortillas",
-						"price": "12",
-						"options": ""
-					}
-				]
-			},
-			{
-				"id": 1,
 				"title": "Salads & Wraps",
 				"additions": "",
 				"options": "",
@@ -365,6 +323,42 @@
 						"description": "Black beans, corn, olives, avocado, tomato, green chillies, grilled onion & zucchini with rice & salsa in a flour tortilla",
 						"price": "15",
 						"options": "Can be made Gluten Free with corn tortillas"
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Buddha Bowls",
+				"additions": "",
+				"options": "Gluten Free",
+				"entrees": [
+					{
+						"id": 0,
+						"name": "P.T. Bowl",
+						"description": "Organic greens, cabbage, rice, pinto beans, red peppers, cucumber, avocado, sweet potatoes, salsa & hummus",
+						"price": "16",
+						"options": ""
+					},
+					{
+						"id": 1,
+						"name": "Go South",
+						"description": "Organic greens, cabbage, quinoa, black beans, red peppers, corn, avocado, sweet potatoes, salsa & chimichurri",
+						"price": "16",
+						"options": ""
+					},
+					{
+						"id": 2,
+						"name": "Go East",
+						"description": "Organic greens, cabbage, rice, garbanzo beans, red peppers, cucumber, carrots, snow peas, mango salsa & peanut sauce",
+						"price": "16",
+						"options": ""
+					},
+					{
+						"id": 3,
+						"name": "Taco Bowl",
+						"description": "Rice, pinto beans, cabbage, salsa, chimichurri & corn tortillas",
+						"price": "12",
+						"options": ""
 					}
 				]
 			},
