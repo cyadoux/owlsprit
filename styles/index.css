@@ -123,6 +123,17 @@ small {
 	margin-bottom: 2.5em;
 }
 
+.notice {
+	position: fixed;
+	bottom: 20px;
+	background-color: #4c0d0a;
+	padding: 1em;
+}
+	.notice h3 {
+		padding: 0;
+		margin: 0;
+	}
+
 
 
 /*
